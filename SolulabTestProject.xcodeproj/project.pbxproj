@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4410DD0421E0909200C4963D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD0321E0909200C4963D /* AppDelegate.swift */; };
+		4410DD0621E0909200C4963D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD0521E0909200C4963D /* ViewController.swift */; };
+		4410DD0921E0909200C4963D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4410DD0721E0909200C4963D /* Main.storyboard */; };
+		4410DD0C21E0909200C4963D /* SolulabTestProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD0A21E0909200C4963D /* SolulabTestProject.xcdatamodeld */; };
+		4410DD0E21E0909600C4963D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4410DD0D21E0909600C4963D /* Assets.xcassets */; };
+		4410DD1121E0909600C4963D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4410DD0F21E0909600C4963D /* LaunchScreen.storyboard */; };
+		4410DD1D21E0A53C00C4963D /* TravelledListDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD1C21E0A53C00C4963D /* TravelledListDataViewController.swift */; };
+		4410DD2021E0A56100C4963D /* TravelledListDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD1F21E0A56100C4963D /* TravelledListDataTableViewCell.swift */; };
+		4410DD2221E0A6E400C4963D /* TravelledListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4410DD2121E0A6E400C4963D /* TravelledListDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4410DD0021E0909200C4963D /* SolulabTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolulabTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4410DD0321E0909200C4963D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4410DD0521E0909200C4963D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4410DD0821E0909200C4963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4410DD0B21E0909200C4963D /* SolulabTestProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SolulabTestProject.xcdatamodel; sourceTree = "<group>"; };
+		4410DD0D21E0909600C4963D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4410DD1021E0909600C4963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4410DD1221E0909600C4963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4410DD1C21E0A53C00C4963D /* TravelledListDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelledListDataViewController.swift; sourceTree = "<group>"; };
+		4410DD1F21E0A56100C4963D /* TravelledListDataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelledListDataTableViewCell.swift; sourceTree = "<group>"; };
+		4410DD2121E0A6E400C4963D /* TravelledListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelledListDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4410DCFD21E0909200C4963D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4410DCF721E0909200C4963D = {
+			isa = PBXGroup;
+			children = (
+				4410DD0221E0909200C4963D /* SolulabTestProject */,
+				4410DD0121E0909200C4963D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4410DD0121E0909200C4963D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD0021E0909200C4963D /* SolulabTestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4410DD0221E0909200C4963D /* SolulabTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD1B21E0912400C4963D /* miscellaneous */,
+				4410DD1821E0910400C4963D /* Model */,
+				4410DD1921E0910A00C4963D /* View */,
+				4410DD1A21E0910F00C4963D /* Controller */,
+				4410DD0D21E0909600C4963D /* Assets.xcassets */,
+				4410DD0F21E0909600C4963D /* LaunchScreen.storyboard */,
+				4410DD1221E0909600C4963D /* Info.plist */,
+				4410DD0A21E0909200C4963D /* SolulabTestProject.xcdatamodeld */,
+			);
+			path = SolulabTestProject;
+			sourceTree = "<group>";
+		};
+		4410DD1821E0910400C4963D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD2121E0A6E400C4963D /* TravelledListDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4410DD1921E0910A00C4963D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD0721E0909200C4963D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4410DD1A21E0910F00C4963D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD0521E0909200C4963D /* ViewController.swift */,
+				4410DD1C21E0A53C00C4963D /* TravelledListDataViewController.swift */,
+				4410DD1E21E0A54800C4963D /* Cell */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4410DD1B21E0912400C4963D /* miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD0321E0909200C4963D /* AppDelegate.swift */,
+			);
+			path = miscellaneous;
+			sourceTree = "<group>";
+		};
+		4410DD1E21E0A54800C4963D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4410DD1F21E0A56100C4963D /* TravelledListDataTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4410DCFF21E0909200C4963D /* SolulabTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4410DD1521E0909600C4963D /* Build configuration list for PBXNativeTarget "SolulabTestProject" */;
+			buildPhases = (
+				4410DCFC21E0909200C4963D /* Sources */,
+				4410DCFD21E0909200C4963D /* Frameworks */,
+				4410DCFE21E0909200C4963D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolulabTestProject;
+			productName = SolulabTestProject;
+			productReference = 4410DD0021E0909200C4963D /* SolulabTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4410DCF821E0909200C4963D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Suraj;
+				TargetAttributes = {
+					4410DCFF21E0909200C4963D = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4410DCFB21E0909200C4963D /* Build configuration list for PBXProject "SolulabTestProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4410DCF721E0909200C4963D;
+			productRefGroup = 4410DD0121E0909200C4963D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4410DCFF21E0909200C4963D /* SolulabTestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4410DCFE21E0909200C4963D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4410DD1121E0909600C4963D /* LaunchScreen.storyboard in Resources */,
+				4410DD0E21E0909600C4963D /* Assets.xcassets in Resources */,
+				4410DD0921E0909200C4963D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4410DCFC21E0909200C4963D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4410DD2021E0A56100C4963D /* TravelledListDataTableViewCell.swift in Sources */,
+				4410DD1D21E0A53C00C4963D /* TravelledListDataViewController.swift in Sources */,
+				4410DD0C21E0909200C4963D /* SolulabTestProject.xcdatamodeld in Sources */,
+				4410DD2221E0A6E400C4963D /* TravelledListDataModel.swift in Sources */,
+				4410DD0621E0909200C4963D /* ViewController.swift in Sources */,
+				4410DD0421E0909200C4963D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4410DD0721E0909200C4963D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4410DD0821E0909200C4963D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4410DD0F21E0909600C4963D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4410DD1021E0909600C4963D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4410DD1321E0909600C4963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4410DD1421E0909600C4963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4410DD1621E0909600C4963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A2664VY9ZR;
+				INFOPLIST_FILE = SolulabTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = ZeilikDev;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4410DD1721E0909600C4963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SolulabTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navsoft.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4410DCFB21E0909200C4963D /* Build configuration list for PBXProject "SolulabTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4410DD1321E0909600C4963D /* Debug */,
+				4410DD1421E0909600C4963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4410DD1521E0909600C4963D /* Build configuration list for PBXNativeTarget "SolulabTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4410DD1621E0909600C4963D /* Debug */,
+				4410DD1721E0909600C4963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4410DD0A21E0909200C4963D /* SolulabTestProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4410DD0B21E0909200C4963D /* SolulabTestProject.xcdatamodel */,
+			);
+			currentVersion = 4410DD0B21E0909200C4963D /* SolulabTestProject.xcdatamodel */;
+			path = SolulabTestProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4410DCF821E0909200C4963D /* Project object */;
+}
